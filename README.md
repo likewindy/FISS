@@ -8,11 +8,11 @@
 # 1 create vue project
     vue create name
 # 2 install dependencies
-npm install -save fisheet
+npm install --save fisheet
 
 # 3 use fisheet componts
     one simple vue app
-    
+
     <template>
       <div id="app">
         <input type="file" id="file" v-on:change="loadfile" />
@@ -29,7 +29,7 @@ npm install -save fisheet
     </template>
     <script>
     import FISS from "./components/FISS";
-    
+
     export default {
       name: "App",
       components: {
@@ -56,7 +56,7 @@ npm install -save fisheet
       },
     };
     </script>
-    
+
     <style>
     #app {
       font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -71,11 +71,11 @@ npm install -save fisheet
       padding: 0;
     }
     </style>
-    
-    
-    
+
+
+
 # 4 serve with hot reload at localhost:8080
-npm run dev
+npm run serve  
 
 
 
