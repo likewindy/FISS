@@ -723,6 +723,7 @@ export default {
   top:0%;
   width: 100%;
   visibility: hidden;
+  text-align: center;
 }
 
 </style>
