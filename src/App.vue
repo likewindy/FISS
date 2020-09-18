@@ -22,11 +22,9 @@ export default {
   },
   methods: {
     activeSheetChage(obj, event) {
-      var aa = 123 / 0;
       console.log(
         "out FISS old sheet:" + event.old + "   new sheet:" + event.new
       );
-      //throw "Too big"; // 抛出文本
     },
     fav: () => {
       // 当前this指向了定义时所在的对象（window）

@@ -8,6 +8,7 @@
 # 1 create vue project
     vue create name
 # 2 install dependencies
+npm install --save jspdf jszip x2js
 npm install --save fisheet
 
 # 3 use fisheet componts
@@ -28,7 +29,7 @@ npm install --save fisheet
       </div>
     </template>
     <script>
-    import FISS from "./components/FISS";
+    import FISS from "fisheet";
 
     export default {
       name: "App",
@@ -75,7 +76,7 @@ npm install --save fisheet
 
 
 # 4 serve with hot reload at localhost:8080
-npm run serve  
+npm run serve
 
 
 
